@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/Just-Egg-Salad/roblox-scripts/main/uwuware'))()
+local Window = Library:CreateWindow("Pet Simulator X")
+Window:AddButton({
+    text = "Dupe",
+    callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Duper47/UwU/main/Duper"))()
+    end
+})
+Library:Init()
